@@ -13,6 +13,7 @@ const Header = () => {
           <h2 className=" px-6 text-4xl sm:text-7xl font-bold text-orange-700">
             Full Stack Developer
           </h2>
+          <br />
           <p className="text-orange-800 py-4 max-w-md">
             Full Stack Developer with a penache for coding to make mobile
             friendly websites using back end and front end techniques. Learning
@@ -22,10 +23,9 @@ const Header = () => {
             web performance overall.
           </p>
           <div>
-            <button>
-              Portfolio
-              <span>
-                <MdOutlineSubdirectoryArrowRight />
+            <button className=" group text-orange-700 w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-br from-orange-200 to-slate-800 cursor-pointer">
+              <span className="group-hover:hue-rotate-180 duration-300">
+                <MdOutlineSubdirectoryArrowRight size={27} className="ml-1" />
               </span>
             </button>
           </div>
