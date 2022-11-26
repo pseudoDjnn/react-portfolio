@@ -1,6 +1,6 @@
 // import React, { useState } from "react";
 // import Header from "./components/Header";
-// import Nav from "./components/Nav";
+import NavBar from "./components/Nav";
 // import Project from "./Project";
 // import Footer from "./components/Footer";
 
@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div>
-      <h1 className="text-4xl font-bold font-signature">RESET</h1>
+      <NavBar />
     </div>
   );
 }

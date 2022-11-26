@@ -1,59 +1,43 @@
 import React from "react";
-import { BsPlus, BsFillLightningFill, BsGearFill } from "react-icons/bs";
-import { FaFire, FaPoo } from "react-icons/fa";
+import { FaBars, FaTimes } from "react-icons/fa";
 
-const NavBarIcons = ({ icons }) => <div className="navbar-icons">{icons}</div>;
+const NavBar = () => {
+  const links = [
+    {
+      id: 1,
+      link: "home",
+    },
+    {
+      id: 2,
+      link: "about",
+    },
+    {
+      id: 3,
+      link: "project",
+    },
+    {
+      id: 4,
+      link: "contact",
+    },
+  ];
 
-const Nav = () => {
   return (
-    <nav className="fixed top-0 left-0 h-screen w-16 flex flex-col shadow-lg bg-white dark:bg-gray-900">
-      <div className="container flex flex-wrap justify-between items-center mx-auto ">
-        <a href="/" className="flex items-center">
-          <i>
-            <span className="self-center text-3xl font-semibold whitespace-nowrap dark:text-stone-500 text-gray-600">
-              <NavBarIcons icons={<FaFire size="28" />} />
-            </span>
-          </i>
-        </a>
+    <div className="flex justify-between items-center w-full h-20 text-white bg-black px-4 fixed">
+      <div>
+        <h1 className="text-5xl font-signature ml-2">Alexander Havers</h1>
       </div>
-      <div className="container flex flex-wrap justify-between items-center mx-auto ">
-        <a href="/" className="flex items-center">
-          <i>
-            <span className="self-center text-3xl font-semibold whitespace-nowrap dark:text-stone-500 text-gray-600">
-              <NavBarIcons icons={<BsPlus size="32" />} />
-            </span>
-          </i>
-        </a>
-      </div>
-      <div className="container flex flex-wrap justify-between items-center mx-auto ">
-        <a href="/" className="flex items-center">
-          <i>
-            <span className="self-center text-3xl font-semibold whitespace-nowrap dark:text-stone-500 text-gray-600">
-              <NavBarIcons icons={<BsFillLightningFill size="20" />} />
-            </span>
-          </i>
-        </a>
-      </div>
-      <div className="container flex flex-wrap justify-between items-center mx-auto ">
-        <a href="/" className="flex items-center">
-          <i>
-            <span className="self-center text-3xl font-semibold whitespace-nowrap dark:text-stone-500 text-gray-600">
-              <NavBarIcons icons={<FaPoo size="20" />} />
-            </span>
-          </i>
-        </a>
-      </div>
-      <div className="container flex flex-wrap justify-between items-center mx-auto ">
-        <a href="/" className="flex items-center">
-          <i>
-            <span className="self-center text-3xl font-semibold whitespace-nowrap dark:text-stone-500 text-gray-600">
-              <NavBarIcons icons={<BsGearFill size="28" />} />
-            </span>
-          </i>
-        </a>
-      </div>
-    </nav>
+      <ul className="flex">
+        {links.map(({ id, link }) => (
+          <li
+            key={id}
+            className="px-4 cursor-pointer capitalize font-medium text-stone-500 hover:scale-105 duration-200"
+          >
+            {link}
+          </li>
+        ))}
+      </ul>
+    </div>
   );
 };
 
-export default Nav;
+export default NavBar;
