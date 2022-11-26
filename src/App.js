@@ -1,5 +1,5 @@
 // import React, { useState } from "react";
-// import Header from "./components/Header";
+import Header from "./components/Header";
 import NavBar from "./components/Nav";
 // import Project from "./Project";
 // import Footer from "./components/Footer";
@@ -11,6 +11,7 @@ function App() {
   return (
     <div>
       <NavBar />
+      <Header />
     </div>
   );
 }
