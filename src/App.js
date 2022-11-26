@@ -1,18 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import Header from "./components/Header";
-// import Navigation from "./Navigation";
+import Nav from "./components/Nav";
 // import Project from "./Project";
 // import Footer from "./Footer";
 
 function App() {
+  // ADD useState FOR CURRENT SELECTION
+  const [currentState, setCurrentState] = useState();
+
   return (
-    <div className="container mx-auto bg-gray-200 rounded-xl shadow-md">
-      <Header className="text-3xl text-gray-700 fornt-bold mb-5">
-        {" "}
-        Welcome
-      </Header>
-      <h1>Hello World</h1>
-      <p className="text-gray-500 text-lg">This should work!</p>
+    <div className="bg-gray-200 dark:bg-gray-800 flex flex-col min-h-screen justify-between">
+      <Nav currentState={currentState} setCurrentState={setCurrentState} />
+      <Header currentState={currentState}></Header>
     </div>
   );
 }
