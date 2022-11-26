@@ -1,3 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:wght@400;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik+Marker+Hatch&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Raleway", sans-serif;
+  }
+}
+
+/* @layer components {
+  .navbar-icons {
+    @apply relative flex items-center justify-center
+    h-12 w-12 mx-auto shadow-lg bg-gray-800 text-green-500 hover:bg-green-600 hover:text-white rounded-3xl hover:rounded-xl transition-all duration-300 ease-linear cursor-pointer;
+  }
+} */
