@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import NavBar from "./components/Nav";
 import About from "./components/About";
 import Footer from "./components/Footer";
-// import Project from "./Project";
+import Project from "./components/Project";
 
 function App() {
   // ADD useState FOR CURRENT SELECTION
@@ -14,6 +14,7 @@ function App() {
       <NavBar />
       <Header />
       <About />
+      <Project />
       <Footer />
     </div>
   );
