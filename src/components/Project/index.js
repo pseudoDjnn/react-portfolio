@@ -1,36 +1,54 @@
 import React from "react";
-import JATE from "../../assets/portfolio/JATE.png";
+import Jate from "../../assets/portfolio/JATE.png";
 import password from "../../assets/portfolio/password.png";
 import quiz from "../../assets/portfolio/quiz.png";
-import readme_generator from "../../assets/portfolio/readme_generator.png";
+import horizon from "../../assets/portfolio/Event_Horizon.png";
 import wish from "../../assets/portfolio/wish.png";
-import socialAPI from "../../assets/portfolio/socialAPI.png";
+import tech from "../../assets/portfolio/tech_blog.png";
 
 const Portfolio = () => {
   const projectPortfolio = [
     {
       id: 1,
-      src: JATE,
+      src: Jate,
+      appName: "Just Another Text Editor",
+      repoLink: "https://github.com/pseudoDjnn/JATE-Text-Editor",
+      deploy: "https://young-plateau-94586.herokuapp.com/",
     },
     {
       id: 2,
       src: password,
+      appName: "Random Password Generator",
+      repoLink: "https://github.com/pseudoDjnn/Random-Password-Generator",
+      deploy: "https://pseudodjnn.github.io/Random-Password-Generator/",
     },
     {
       id: 3,
       src: quiz,
+      appName: "Coding Quiz App",
+      repoLink: "https://github.com/pseudoDjnn/Js-Coding-Quiz-App",
+      deploy: "https://pseudodjnn.github.io/Js-Coding-Quiz-App/",
     },
     {
       id: 4,
-      src: readme_generator,
+      src: horizon,
+      appName: "Event Horizon",
+      repoLink: "https://github.com/pseudoDjnn/Event-Horizon",
+      deploy: "https://pseudodjnn.github.io/Event-Horizon/",
     },
     {
       id: 5,
-      src: socialAPI,
+      src: tech,
+      appName: "Social Network API",
+      repoLink: "https://github.com/pseudoDjnn/Tech-Blog",
+      deploy: "https://morning-tor-78809.herokuapp.com/",
     },
     {
       id: 6,
       src: wish,
+      appName: "Wishagram",
+      repoLink: "https://github.com/pseudoDjnn/Wishagram",
+      deploy: "https://glacial-mesa-81435.herokuapp.com/",
     },
   ];
 
@@ -50,7 +68,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {projectPortfolio.map(({ id, src }) => (
+          {projectPortfolio.map(({ id, src, appName, repoLink, deploy }) => (
             <div key={id} className="shadow-md shadow-slate-600 rounded-lg">
               <img
                 src={src}
@@ -58,12 +76,18 @@ const Portfolio = () => {
                 className="rounded-md duration-700 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-2 m-4 duration-300 hover:scale-105">
-                  Demo
-                </button>
-                <button className="w-1/2 px-6 py-2 m-4 duration-300 hover:scale-105">
-                  Code
-                </button>
+                <a
+                  href={repoLink}
+                  className="w-1/2 px-6 py-2 m-4 duration-300 hover:scale-105"
+                >
+                  {appName}
+                </a>
+                <a
+                  href={deploy}
+                  className="w-1/2 px-6 py-2 m-4 duration-300 hover:scale-105"
+                >
+                  Deployment
+                </a>
               </div>
             </div>
           ))}
