@@ -23,7 +23,7 @@ const Header = () => {
             web performance overall.
           </p>
           <div>
-            <button className=" group text-orange-700 w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-br from-orange-200 to-slate-800 cursor-pointer">
+            <button className=" group text-orange-700 w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-br from-slate-800 to-orange-200 cursor-pointer">
               <span className="group-hover:hue-rotate-180 duration-300">
                 <MdOutlineSubdirectoryArrowRight size={27} className="ml-1" />
               </span>

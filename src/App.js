@@ -1,4 +1,5 @@
 // import React, { useState } from "react";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import NavBar from "./components/Nav";
 // import Project from "./Project";
@@ -12,6 +13,7 @@ function App() {
     <div>
       <NavBar />
       <Header />
+      <Footer />
     </div>
   );
 }
