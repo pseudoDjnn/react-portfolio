@@ -14,16 +14,13 @@ const Header = () => {
             Full Stack Developer
           </h2>
           <br />
-          <p className="text-orange-800 py-4 max-w-md">
-            Full Stack Developer with a penache for coding to make mobile
-            friendly websites using back end and front end techniques. Learning
-            the likes of HTML5, CSS, Javascript, Node, SQL, NoSQL, MongoDB,
-            React, etc... gives me the ability to work under many disciplines,
-            styles, and practices focusing on the personal user experience and
-            web performance overall.
+          <p className="text-orange-100 py-4 max-w-md">
+            I am enrolled in UNCC's bootcamp for full-stack development.
+            Currently, I am working with React, Tailwind, and other packages for
+            this project, already bundled or otherwise.
           </p>
           <div>
-            <button className=" group text-orange-700 w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-br from-slate-800 to-orange-200 cursor-pointer">
+            <button className=" group text-orange-800 w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-br from-slate-800 to-orange-200 cursor-pointer">
               <span className="group-hover:hue-rotate-180 duration-300">
                 <MdOutlineSubdirectoryArrowRight size={27} className="ml-1" />
               </span>

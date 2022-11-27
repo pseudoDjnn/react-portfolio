@@ -1,9 +1,9 @@
 // import React, { useState } from "react";
-import Footer from "./components/Footer";
 import Header from "./components/Header";
 import NavBar from "./components/Nav";
+import About from "./components/About";
+import Footer from "./components/Footer";
 // import Project from "./Project";
-// import Footer from "./components/Footer";
 
 function App() {
   // ADD useState FOR CURRENT SELECTION
@@ -13,6 +13,7 @@ function App() {
     <div>
       <NavBar />
       <Header />
+      <About />
       <Footer />
     </div>
   );
