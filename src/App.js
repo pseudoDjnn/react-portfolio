@@ -1,22 +1,21 @@
-import React, { useState } from "react";
+import React from "react";
 import Header from "./components/Header";
 import NavBar from "./components/Nav";
 import About from "./components/About";
-import Footer from "./components/Footer";
 import Project from "./components/Project";
+import Experience from "./components/Experience";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 
 function App() {
-  // ADD useState FOR CURRENT SELECTION
-  const [currentState, setCurrentState] = useState();
-
   return (
     <div>
       <NavBar />
       <Header />
       <About />
       <Project />
-      currentState={currentState}
-      setCurrentState={setCurrentState}
+      <Experience />
+      <Contact />
       <Footer />
     </div>
   );
