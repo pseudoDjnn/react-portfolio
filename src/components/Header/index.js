@@ -1,11 +1,12 @@
 import React from "react";
 import PersonalImage from "../../assets/2018.jpg";
 import { MdOutlineSubdirectoryArrowRight } from "react-icons/md";
+import { Link } from "react-scroll";
 
 const Header = () => {
   return (
     <div
-      name="header"
+      name="home"
       className="h-screen w-full bg-gradient-to-b from-slate-800 via-slate-800 to-black"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
@@ -20,11 +21,16 @@ const Header = () => {
             this project, already bundled or otherwise.
           </p>
           <div>
-            <button className=" group text-orange-800 w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-br from-slate-800 to-orange-200 cursor-pointer">
+            <Link
+              to="portfolio"
+              smooth
+              duration={500}
+              className="group text-orange-800 w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-br from-slate-800 to-orange-200 cursor-pointer"
+            >
               <span className="group-hover:hue-rotate-180 duration-300">
                 <MdOutlineSubdirectoryArrowRight size={27} className="ml-1" />
               </span>
-            </button>
+            </Link>
           </div>
         </div>
         <div>

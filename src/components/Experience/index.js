@@ -50,13 +50,13 @@ const Experience = () => {
 
   return (
     <div
-      name="smoocon"
+      name="experience"
       className="bg-gradient-to-b from-slate-800 to-black w-full h-screen"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-orange-100">
         <div>
-          <p className="text-4xl font-bold border-b-4 border-slate-600 p-2 inline">
-            Experience and current skillsets
+          <p className="text-4xl font-bold border-b-4 border-orange-800 p-2 inline">
+            Experience
           </p>
           <p className="py-6"> Ther are the technologies I have worked with</p>
         </div>
