@@ -32,7 +32,7 @@ const Contact = () => {
               rows="10"
               className="p-2 bg-transparent border-2 rounded-md text-orange-100 focus:outline-none"
             ></textarea>
-            <button className="text-orange-800 bg-gradient-to-br from-slate-800 to-orange-200 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-500">
+            <button className="text-orange-100 bg-gradient-to-br from-slate-800 to-orange-800 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-500">
               Reach out
             </button>
           </form>

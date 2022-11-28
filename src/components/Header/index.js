@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-slate-800 via-slate-800 to-black"
+      className="h-screen w-full bg-gradient-to-b from-slate-800 via-zinc-700 to-neutral-900"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
