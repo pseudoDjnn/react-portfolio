@@ -39,7 +39,7 @@ const Contact = () => {
   }
   return (
     <div
-      name="contact"
+      name="contact & resume"
       className="bg-gradient-to-b from-neutral-800 to-black w-full h-screen text-orange-200"
     >
       <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full">
