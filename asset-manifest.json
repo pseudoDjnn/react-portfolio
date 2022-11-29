@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.c1b5fb3b.css",
-    "main.js": "/react-portfolio/static/js/main.1aec8f91.js",
+    "main.css": "/react-portfolio/static/css/main.669a483a.css",
+    "main.js": "/react-portfolio/static/js/main.52b6700b.js",
     "static/media/Event_Horizon.png": "/react-portfolio/static/media/Event_Horizon.ca3ea39466dabbdd1a3b.png",
     "static/media/wish.png": "/react-portfolio/static/media/wish.6e6fc8e745375f8d46fc.png",
     "static/media/2018.jpg": "/react-portfolio/static/media/2018.2914c951a31b4bee885c.jpg",
@@ -16,11 +16,11 @@
     "static/media/css.png": "/react-portfolio/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/react-portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/react-portfolio/index.html",
-    "main.c1b5fb3b.css.map": "/react-portfolio/static/css/main.c1b5fb3b.css.map",
-    "main.1aec8f91.js.map": "/react-portfolio/static/js/main.1aec8f91.js.map"
+    "main.669a483a.css.map": "/react-portfolio/static/css/main.669a483a.css.map",
+    "main.52b6700b.js.map": "/react-portfolio/static/js/main.52b6700b.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1b5fb3b.css",
-    "static/js/main.1aec8f91.js"
+    "static/css/main.669a483a.css",
+    "static/js/main.52b6700b.js"
   ]
 }
