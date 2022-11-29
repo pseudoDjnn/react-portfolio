@@ -87,7 +87,7 @@ const Contact = () => {
                 <p className="error-text">{errorMessage}</p>
               </div>
             )}
-            <button className="text-orange-100 bg-gradient-to-br from-slate-800 to-orange-800 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-500">
+            <button className="text-orange-100 bg-gradient-to-bl from-slate-800 to-orange-800 px-6 py-3 my-8 mx-auto flex items-center rounded-md hover:scale-110 duration-700">
               Reach out
             </button>
           </form>

@@ -9,7 +9,7 @@ import Footer from "./components/Footer";
 import { capitalizeFirstLetter } from "./utils/helpers";
 
 function App() {
-  const [currentSelect, setCurrentSelect] = useState("About Me");
+  const [currentSelect, setCurrentSelect] = useState("About");
 
   useEffect(() => {
     document.title = capitalizeFirstLetter(currentSelect);

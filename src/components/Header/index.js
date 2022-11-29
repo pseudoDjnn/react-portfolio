@@ -24,10 +24,10 @@ const Header = () => {
             <Link
               to="portfolio"
               smooth
-              duration={500}
+              duration={900}
               className="group text-orange-800 w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-br from-slate-800 to-orange-200 cursor-pointer"
             >
-              <span className="group-hover:hue-rotate-180 duration-300">
+              <span className="group-hover:hue-rotate-180 duration-700">
                 <MdOutlineSubdirectoryArrowRight size={27} className="ml-1" />
               </span>
             </Link>

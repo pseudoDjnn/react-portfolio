@@ -36,7 +36,7 @@ const NavBar = () => {
         <Link
           to="home"
           smooth
-          duration={500}
+          duration={1200}
           className="text-5xl font-signature ml-2 cursor-pointer"
         >
           Alexander Havers
@@ -48,7 +48,7 @@ const NavBar = () => {
             key={id}
             className="px-4 cursor-pointer capitalize font-medium text-orange-700 hover:scale-105 duration-200"
           >
-            <Link to={link} smooth duration={500}>
+            <Link to={link} smooth duration={1200}>
               {link}
             </Link>
           </li>
@@ -73,7 +73,7 @@ const NavBar = () => {
                 onClick={() => setDonut(!donut)}
                 to={link}
                 smooth
-                duration={500}
+                duration={1200}
               >
                 {link}
               </Link>
