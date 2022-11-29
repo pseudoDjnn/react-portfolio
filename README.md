@@ -6,7 +6,7 @@
 
 - What is the purpose of this repository?<br/>
 
-A basic smooth sroll app for resume and portfolio purposes in which the user can easily update the projects, skills used, and contact information, so the viewer can access the information with ease via direct email, resume, or other sites hosting the info.
+A basic smooth scroll app for resume and portfolio purposes in which the user can easily update the projects, skills used, and contact information, so the viewer can access the information with ease via direct email, resume, or other sites hosting the info.
 
 # Table of Contents
 
