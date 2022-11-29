@@ -1,5 +1,7 @@
 # React Portfolio
 
+- [Deplyoment](https://pseudodjnn.github.io/react-portfolio/)
+
 ![license](https://img.shields.io/badge/license--yellowgreen.svg)
 
 ## Description
@@ -16,6 +18,9 @@ A basic smooth scroll app for resume and portfolio purposes in which the user ca
 - [Contributors](#contributors)
 - [Questions](#questions)
 - [License](#license)
+
+![reactPortfolio](https://user-images.githubusercontent.com/105378214/204615906-788a7f5f-8e62-4ece-90a3-1878b1acab34.png)
+
 
   ## Installation (Dependencies)
 
